@@ -34,7 +34,7 @@
 		<tbody>
 			<?php
 				// Conexão com o banco de dados
-				$conn = mysqli_connect('localhost', 'usuario', 'senha', 'nome_do_banco_de_dados');
+				$conn = mysqli_connect('______');
 				if (!$conn) {
 					die('Falha na conexão: ' . mysqli_connect_error());
 				}
